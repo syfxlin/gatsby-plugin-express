@@ -19,6 +19,9 @@
     "watch": "tsup --watch",
     "publish": "pnpm publish --access public --no-git-checks"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=8.0.0"
