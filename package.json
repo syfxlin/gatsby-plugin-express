@@ -11,8 +11,9 @@
   "author": "Otstar Lin <i@ixk.me> (https://ixk.me)",
   "license": "Apache-2.0",
   "private": false,
+  "main": "index.js",
   "bin": {
-    "gserve": "dist/server/index.js"
+    "gserve": "bin/bin.js"
   },
   "scripts": {
     "build": "tsup",
